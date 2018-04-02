@@ -32,10 +32,8 @@ renderList(){
   })
 }
 handleDelete=(index)=>{
-  console.log(index);
   const newList = this.state.list
   newList.splice(index, 1)
-  console.log(newList);
   this.setState({list: newList})
 }
   render() {
